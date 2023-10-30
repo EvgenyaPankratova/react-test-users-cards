@@ -1,4 +1,6 @@
 import styles from "./Card.module.css";
+import tel from '../../img/Frame 4806.png';
+import mail from '../../img/Frame 4807.png';
 
 const Card = ({ users, searchValue, setIsOpen, isOpen, handleOpen }) => {
   return (
@@ -18,11 +20,11 @@ const Card = ({ users, searchValue, setIsOpen, isOpen, handleOpen }) => {
             >
               <div className={styles.card_title}>{elem.name}</div>
               <div className={styles.card_tel}>
-                <img src="../Frame 4806.png" alt="tel" />{" "}
+                <img src={tel} alt="tel" />
                 <div>{elem.phone}</div>
               </div>
               <div className={styles.card_mail}>
-                <img src="../Frame 4807.png" alt="mail" />
+                <img src={mail} alt="mail" />
                 <div>{elem.email}</div>
               </div>
             </div>

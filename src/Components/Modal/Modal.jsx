@@ -1,4 +1,5 @@
 import styles from "./Modal.module.css";
+import close from '../../img/icon.png';
 
 const Modal = ({ setIsOpen, clickedUser }) => {
   return (
@@ -8,7 +9,7 @@ const Modal = ({ setIsOpen, clickedUser }) => {
           <div className={styles.modal_title}>{clickedUser.name}</div>
           <div>
             <img
-              src="../icon.png"
+              src={close}
               alt="close"
               onClick={() => setIsOpen(false)}
             />
