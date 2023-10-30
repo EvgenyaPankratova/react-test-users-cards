@@ -1,13 +1,37 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import "./nullstyle.css";
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./Fonts/proximanova_regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./Fonts/proximanova_bold.otf") format("truetype");
+  font-style: bold;
+  font-weight: bold;
 }
+
+
+
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  font-family: "Proxima Nova";
+}
+
+.App {
+
+  padding: 2rem;
+}
+
+.App_nonactive {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5rem;
+  opacity: 0.5;
+}
+

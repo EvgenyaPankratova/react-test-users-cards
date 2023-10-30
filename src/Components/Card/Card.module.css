@@ -1,0 +1,33 @@
+.card{
+    border-radius: 5px;
+    text-align: left;
+    padding: 1rem 1.5rem;
+    -webkit-box-shadow: 4px 4px 8px -1px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 4px 4px 8px -1px rgba(34, 60, 80, 0.2);
+box-shadow: 4px 4px 8px -1px rgba(34, 60, 80, 0.2);
+width: 30%;
+height: 314px;
+cursor: pointer;
+margin-bottom: 1rem;
+
+}
+
+.card_title{
+    color: #262C40;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.card_tel, .card_mail{
+    color: #8189A3;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 0.5rem;
+}
+
+img{
+    margin-right: 1rem;
+}
